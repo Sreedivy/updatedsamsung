@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Blogger</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add your CSS styles here */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    /* Additional CSS styles */
+  </style>
+</head>
+<body>
+  <!-- Your HTML content here -->
+  <!-- ... -->
+
+  <!-- Example of a form and its associated labels -->
+  <form id="code-search-feedback-form" action="/search/feedback" method="post">
+    <p>We read every piece of feedback, and take your input very seriously.</p>
+    <label for="feedback">Feedback:</label>
+    <textarea name="feedback" id="feedback" class="form-control width-full mb-2" style="height: 120px"></textarea>
+    <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
+    <label for="include_email" style="font-weight: normal">Include my email address so I can be contacted</label>
+    <button type="submit" class="btn-primary btn">Submit feedback</button>
+  </form>
+
+  <footer>
+    <p>&copy; 2023 Food Blogger</p>
+  </footer>
+
+  <!-- Your scripts here -->
+  <script src="scripts.js"></script>
+</body>
+</html>
